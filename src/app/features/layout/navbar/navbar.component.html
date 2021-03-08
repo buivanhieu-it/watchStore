@@ -1,0 +1,51 @@
+<!--Navbar-->
+<mdb-navbar class="fixed-top" SideClass="navbar navbar-expand-lg navbar-dark bg-primary" [containerInside]="false">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand>
+    <a class="navbar-brand" href="#">
+      <img src="https://mdbootstrap.com/img/logo/mdb-transparent.png" height="30" alt="">
+    </a>
+  </mdb-navbar-brand>
+  <!-- Collapsible content -->
+  <links>
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" routerLink="/home" mdbWavesEffect>Trang Chủ<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/product" class="nav-link waves-light" mdbWavesEffect>Đồng Hồ Nam</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link waves-light" routerLink="/product" mdbWavesEffect>Đồng Hồ Nữ</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown" dropdown>
+        <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+          Thương Hiệu<span class="caret"></span></a>
+        <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">DW</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Sony</a>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Nintendo Switch</a>
+          <div class="divider dropdown-divider"></div>
+          <a class="dropdown-item waves-light" mdbWavesEffect href="#">Viet Creator</a>
+        </div>
+      </li>
+
+    </ul>
+    <!-- Links -->
+
+    <!-- Search form -->
+    <form class="form-inline waves-light" mdbWavesEffect>
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      </div>
+    </form>
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
