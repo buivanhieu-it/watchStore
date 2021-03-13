@@ -9,12 +9,14 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FeatureRoutingModule } from './feature-routing.module';
 import { BreadcrumsComponent } from './layout/breadcrums/breadcrums.component';
+import { ProductDetailComponent } from "./product-detail/product-detail.component";
 
 @NgModule({
   declarations: [
   FooterComponent,
   NavbarComponent,
     HomeComponent,
+    ProductDetailComponent,
     BreadcrumsComponent,
   ],
   exports:[

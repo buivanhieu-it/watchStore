@@ -10,7 +10,6 @@ const routes: Routes = [
   {path: CONST.frontendURL.HOME, component: HomeComponent},
   {path: CONST.frontendURL.DETAIL, component: ProductDetailComponent},
 
-
 ];
 
 @NgModule({
