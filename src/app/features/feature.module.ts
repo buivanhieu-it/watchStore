@@ -9,9 +9,6 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FeatureRoutingModule } from './feature-routing.module';
 import { BreadcrumsComponent } from './layout/breadcrums/breadcrums.component';
-import { ProductComponent } from './product/product.component';
-import { ListProductComponent } from './product/list-product/list-product.component';
-import { ProductDetailComponent } from './product/product-detail/product-detail.component';
 
 @NgModule({
   declarations: [
@@ -19,9 +16,6 @@ import { ProductDetailComponent } from './product/product-detail/product-detail.
   NavbarComponent,
     HomeComponent,
     BreadcrumsComponent,
-    ProductComponent,
-    ListProductComponent,
-    ProductDetailComponent,
   ],
   exports:[
     FooterComponent,
